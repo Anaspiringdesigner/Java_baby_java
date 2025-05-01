@@ -1,0 +1,11 @@
+Some good to follow rules are
+
+Use human-readable names like userName or shoppingCart
+
+Stay away from abbreviations or short names like a, b, c etc..
+
+Make names maximally descriptive and concise. Examples of bad names are data, value etc.. Such 
+names say nothing and they may cause issues in the long run.
+
+Agree on terms with your team or on your mind. if a site visitor is called user then we should
+name variables as currentUser or newUser instead of currentVisitor  or newManInTown!!!

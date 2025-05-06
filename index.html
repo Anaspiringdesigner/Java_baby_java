@@ -7,13 +7,51 @@
 </head>
 <body>
     <script>
-    a = 7;
-    b = "Doe";
-    d = " ";
-    e = 13;
+        // add7 function that adds number 7 to the input number
+        let num = prompt ("Enter a number");
 
-    c = a + d + b + e;
-    console.log(c);
+        function add7(num) {
+            newNum = +num + 7
+            return newNum
+        }
+        add7(num);
+        console.log(newNum);
+
+        // Capitalizes the first letter of the string.
+
+        let str = prompt("Enter a word, line or a sentence");
+
+        function capitalize(str) {
+            firstLetter = str.at(0);
+            newFirstLetter = firstLetter.toUpperCase(firstLetter);
+            strNew = str.replace(firstLetter, newFirstLetter);
+            return strNew
+        }
+        capitalize(str);
+        console.log(strNew);
+
+        // multiples two numbers
+
+        let a = prompt("Enter the number a");
+        let b = prompt("Enter the number b");
+
+        function multiply (a,b) {
+            mul = +a * +b;
+            return mul
+        }
+        multiply(a,b);
+        console.log(mul);
+
+        // To get the last letter of a string
+
+        let newStr = prompt ("Enter the new string");
+
+        function lastLetter (newStr) {
+            length = newStr.charAt(newStr.length-1);
+            return length;
+        }
+        lastLetter(newStr);
+        console.log(length);
     </script>
 </body>
 </html>
